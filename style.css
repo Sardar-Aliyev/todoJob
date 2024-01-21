@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,100;1,300&display=swap');
+
+body {
+    background-color: #576574;
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    width: 20%;
+    padding: 13px 11px;
+    border: none;
+    font-size: 25px;
+    outline: none;
+}
+
+
+.btntype {
+    font-size: 44px;
+    cursor: pointer;
+    color: #ee5253;
+}
+
+.maintododiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 5px;
+
+}
+
+.list-div {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 50px;
+    width: 36%;
+}
+
+.list-div .todojobs {
+    list-style-type: none;
+    margin-right: 5px;
+    font-size: 25px;
+    flex: 1;
+    padding-left: 2px;
+}
+
+.todo-completed {
+    text-decoration: line-through;
+    opacity: .6;
+}
+
+.todo-trash {
+    transform: scale(0);
+}
+
+.checkbtn,
+.trashbtn {
+    font-size: 42px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+.checkbtn {
+    background-color: green;
+}
+
+.trashbtn {
+    background-color: red;
+}
+
+.fa-solid {
+    pointer-events: none;
+}
